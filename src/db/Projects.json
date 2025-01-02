@@ -1,0 +1,81 @@
+{
+    "projects": [
+        {
+            "active": true,
+            "author": "Team SolEtude",
+            "date": "2021-02",
+            "description": "as",
+            "heightPosition": 0,
+            "heightPositionMobile": 0,
+            "name": "Sketchbook About Her Sun",
+            "promoImg": "SAHSPromoArt.jpg",
+            "url": "https://store.steampowered.com/app/1611760/A_Sketchbook_About_Her_Sun/"
+        },
+        {
+            "active": false,
+            "author": "PinoSuPinoSupino",
+            "date": "2021-01",
+            "description": "loremipsum",
+            "heightPosition": 75,
+            "heightPositionMobile": 75,
+            "name": "Switching Mask",
+            "promoImg": "SwitchingMaskPromoArt.png",
+            "url": "https://eventhorizonschool.itch.io/star-warmer"
+        },
+        {
+            "active": true,
+            "author": "PinoSuPinoSupino",
+            "date": "2020-06",
+            "description": "loremipsum",
+            "heightPosition": 0,
+            "heightPositionMobile": 0,
+            "name": "Star Warmer",
+            "promoImg": "StarWarmerPromoArt.jpg",
+            "url": "https://eventhorizonschool.itch.io/star-warmer"
+        },
+        {
+            "active": true,
+            "author": "Team Croissant",
+            "date": "2019-06",
+            "description": "loremipsum",
+            "name": "Immortal Party",
+            "heightPosition": 25,
+            "heightPositionMobile": 25,
+            "promoImg": "ImmortalPartyPromoArt.jpg",
+            "url": "https://eventhorizonschool.itch.io/immortal-party"
+        },
+        {
+            "active": true,
+            "author": "We Sock",
+            "date": "2021-01",
+            "description": "asdf",
+            "heightPosition": 25,
+            "heightPositionMobile": 75,
+            "name": "Snoks",
+            "promoImg": "SnoksPromoArt.png",
+            "url": "https://v3.globalgamejam.org/2021/games/snoks-9"
+        },
+        {
+            "active": true,
+            "author": "Octobeet",
+            "date": "2020-01",
+            "description": "asdf",
+            "heightPosition": 25,
+            "heightPositionMobile": 75,
+            "name": "Fabbrizia",
+            "promoImg": "FabbriziaPromoArt.jpg",
+            "url": "https://v3.globalgamejam.org/2020/games/fabbrizia-9"
+        },
+        {
+            "active": true,
+            "author": "Octobeet",
+            "date": "2019-01",
+            "description": "asdf",
+            "heightPosition": 25,
+            "heightPositionMobile": 75,
+            "name": "Sleepee",
+            "promoImg": "SleepeePromoArt.jpg",
+            "url": "https://v3.globalgamejam.org/2019/games/sleepee"
+        }
+    ]
+}
