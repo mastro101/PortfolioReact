@@ -3,6 +3,7 @@ import './Mastro.css'
 import { ProjectData } from '../interfaces/ProjectsData'
 import { data, Link } from 'react-router'
 import Card from './Card'
+import parse from 'html-react-parser';
 
 interface Props {
     myData : ProjectData
@@ -32,7 +33,7 @@ export const Project = ({myData} : Props) => {
                     </div>
                 </div>
             </a>
-            <p className='p-3 mb-5'>{myData.description}</p>
+            <p className='p-3 mb-5'>{parse(myData.description)}</p>
         </div>
         {/* lg */}
         <div className='d-none d-lg-block col-4 mb-3 p-2'>
