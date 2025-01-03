@@ -10,19 +10,19 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.js'
 import './components/Mastro.css'
 
-
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <BrowserRouter>
     <Header>Matteo Mastropasqua</Header>
     <NavBar></NavBar>
     <div className='d-flex justify-content-center'>
       <div className='w-lg-75 w-sm-100'>
-        <Routes>
-          <Route index element={<App />} />
-          <Route path='Projects' element={<Projects />} />
-          <Route path="AboutMe" element={<AboutMe />} />
+        <App/>
+        {/* <Routes>
+          <Route index             element={<App        />} />
+          <Route path='Projects'   element={<Projects   />} />
+          <Route path="AboutMe"    element={<AboutMe    />} />
           <Route path="ImagePopUp" element={<ImagePopUp />} />
-        </Routes>
+        </Routes> */}
       </div>
     </div>
   </BrowserRouter>,

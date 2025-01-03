@@ -4,12 +4,10 @@ import MastroLink from "./MastroLink";
 const NavBar = () => {
     return (
     <>
-        <nav className="navbar mb-5">
-            <div className="row w-100 text-center mastro-orange">
-                <MastroLink href='/AboutMe'>About Me</MastroLink>
-                <MastroLink href='/Projects'>Projects</MastroLink>
-                <MastroLink href='/ImagePopUp'>Contacts</MastroLink>
-            </div>
+        <nav className="navbar mb-lg-5 mb-4 d-flex justify-content-evenly text-center mastro-orange fs-5">
+            <Link to='/AboutMe'     className=" nav-link p-2">About Me</Link>
+            <Link to='/Projects'    className=" nav-link p-2">Projects</Link>
+            <Link to='/ImagePopUp'  className=" nav-link p-2">Contacts</Link>
         </nav>
     </>
     )
