@@ -14,8 +14,12 @@ interface Props {
 export const Project = ({myData} : Props) => {
     return (
     <>
-        <h1>{myData.name}</h1>
-        <a href={myData.url} target='_blank'>link</a>
+        <img src={'/src/img/' + myData.promoImg} alt="..." className='w-100'/>
+        <div className='p-2'>
+            <h1>{myData.name}</h1>
+            <p>{parse(myData.description)}</p>
+            <a href={myData.url_itch} target='_blank'>link</a>
+        </div>
     </>
     )
 }
