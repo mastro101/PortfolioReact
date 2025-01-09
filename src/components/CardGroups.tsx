@@ -9,11 +9,12 @@ const CardGroup = () => {
     return (
     <>
         <div className="card-group">
-            <Card myData={data.projects[0]} heightPosition={0} />
-            <Card myData={data.projects[1]} heightPosition={0} />
-            <Card myData={data.projects[2]} heightPosition={0} />
-            <Card myData={data.projects[3]} heightPosition={0} />
-            <Card myData={data.projects[4]} heightPosition={0} />
+            <Card myData={data.projects[0]}/>
+            <Card myData={data.projects[2]}/>
+            <Card myData={data.projects[3]}/>
+            <Card myData={data.projects[4]}/>
+            <Card myData={data.projects[5]}/>
+            <Card myData={data.projects[6]}/>
         </div>
     </>
     )

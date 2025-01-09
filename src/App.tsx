@@ -13,6 +13,7 @@ import AboutMe from "./components/AboutMe";
 import Card from "./components/Card";
 import data from "./db/Projects.json"
 import { Project } from "./components/Project";
+import Contacts from "./components/Contacts";
 
 function App() {
 
@@ -36,13 +37,13 @@ function App() {
     return (
     <>
         <Routes>
-          <Route index             element={<CardGroup  />} />
+          <Route index element={<CardGroup/>}/>
           <Route path='Projects'>
             <Route index element={<Projects/>}/>
             {projectRoutes}
           </Route>
-          <Route path="AboutMe"    element={<AboutMe    />} />
-          {/* <Route path="ImagePopUp" element={<ImagePopUp />} /> */}
+          <Route path="AboutMe" element={<AboutMe/>}/>
+          <Route path="Contacts" element={<Contacts />}/>
         </Routes>
 
         {/* <ListGroup items={['1', '2', '<urla di disperazione perchè non esiste un livello definibile essendo troppo potente>', '4']} heading="Seleziona un livello di Cuteness"

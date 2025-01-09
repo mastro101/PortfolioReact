@@ -20,9 +20,9 @@ const Card = ({myData} : Props) => {
                 <div className="row">
                     <div className="col">
                         <h5 className="card-title">{myData.name}</h5>
-                        <p className="card-text">{myData.author}</p>
+                        <div className="card-text">{myData.author}</div>
                     </div>
-                    <p className="col-3 card-text"><small className="text-body-secondary">{myData.date}</small></p>
+                    <div className="col-3 card-text"><small className="text-body-secondary">{myData.date}</small></div>
                 </div>
             </div>
         </Link>
