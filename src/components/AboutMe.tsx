@@ -1,3 +1,4 @@
+import CardGroup from "./CardGroups";
 import ImagePopUp from "./ImagePopUp";
 
 function AboutMe() {
@@ -5,8 +6,11 @@ function AboutMe() {
     return (
     <>
         <div>
-            <p>Salve</p>
-            <a href="http://localhost:5173/ImagePopUp">asdf</a>
+            <p>
+                Salve<br/><br/>
+                I'm Matteo and this is my collection of projects I've worked on during my lifetime
+            </p>
+            <CardGroup/>
         </div>
     </>
     )
