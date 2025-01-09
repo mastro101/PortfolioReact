@@ -1,6 +1,6 @@
 const ImagePopUp = () => {
     return (
-        <img src={('src/img/cute.jpeg')} className="img-thumbnail" alt="..."/>
+        <img src={('/src/img/cute.jpeg')} className="img-thumbnail" alt="..."/>
     );
 }
 

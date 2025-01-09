@@ -1,23 +1,38 @@
 import { Project } from "./Project"
 import data from "../db/Projects.json"
+import { ProjectMobile } from "./ProjectMobile";
+import Card from "./Card";
 
 const Projects = () => {
 
-    const projects =  [];
+    const projectsLg = [];
+    const projectsMobile = [];
     const l = data.projects.length;
     for (let i = 0; i < l; i++)
     {
         if (data.projects[i].active)
-            projects.push(<Project myData={data.projects[i]}></Project>)
+        {
+            projectsLg.push(
+                <div className="col-4 mb-3 p-2" key={i + "_lg"}>
+                    <Card myData={data.projects[i]} />
+                </div>
+            )
+
+            projectsMobile.push(
+                <div key={i + "_mobile"}>
+                    <ProjectMobile myData={data.projects[i]}></ProjectMobile>
+                </div>
+            )
+        }
     }
 
     return (
     <>
         <div className="d-none d-lg-flex row">
-            {projects}
+            {projectsLg}
         </div>
         <div className="d-lg-none">
-            {projects}
+            {projectsMobile}
         </div>
     </>
     )

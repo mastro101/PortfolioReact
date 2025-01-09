@@ -11,5 +11,7 @@ export interface ProjectData {
     heightPositionMobile: number
     name: string
     promoImg : string
-    url: string
+    url_steam: string
+    url_ggj: string
+    url_itch: string
 }
