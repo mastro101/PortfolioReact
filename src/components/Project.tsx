@@ -14,7 +14,9 @@ interface Props {
 export const Project = ({myData} : Props) => {
     return (
     <>
-        <img src={'/src/img/' + myData.promoImg} alt="..." className='w-100'/>
+        <div className='d-flex justify-content-center mb-3'>
+            <img src={'/src/img/' + myData.promoImg} alt="..." className='w-75'/>
+        </div>
         <div className='p-2'>
             <h1>{myData.name}</h1>
             <p>{parse(myData.description)}</p>

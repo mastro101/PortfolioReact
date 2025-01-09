@@ -29,7 +29,7 @@ function App() {
       const d = data.projects[i]
       if (d.active)
       {
-        projectRoutes.push(<Route path={d.name} element={<Project myData={d} />}/>)
+        projectRoutes.push(<Route key={i} path={d.name} element={<Project myData={d} />}/>)
       }
     }
 
