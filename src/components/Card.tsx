@@ -14,7 +14,7 @@ const Card = ({myData} : Props) => {
 
     return (
     <>
-        <Link to={myData.name} className="card border-light">
+        <a href={myData.url} target="_blank" className="card border-light">
             <img src={"/src/img/" + myData.promoImg} className="crop-h" alt="..." style={style}/>
             <div className="card-body">
                 <div className="row">
@@ -25,7 +25,7 @@ const Card = ({myData} : Props) => {
                     <div className="col-3 card-text"><small className="text-body-secondary">{myData.date}</small></div>
                 </div>
             </div>
-        </Link>
+        </a>
     </>
     )
 }

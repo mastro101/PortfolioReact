@@ -22,7 +22,7 @@ export const ProjectMobile = ({myData} : Props) => {
     <>
         {/* mobile */}
         <div className='w-100 mb-4'>
-            <Link to={myData.name}>
+            <a href={myData.url} target='_blank'>
                 <h1 className='px-2 text-secondary'>{myData.name}</h1>
                 <img src={"/src/img/" + myData.promoImg} className="crop-h w-100" alt="..." height="150px" style={style} />
                 <div className='text-secondary w-100 p-2 fs-5'>
@@ -31,7 +31,7 @@ export const ProjectMobile = ({myData} : Props) => {
                         <div className='align-bottom col-3 text-end'>{myData.date}</div>
                     </div>
                 </div>
-            </Link>
+            </a>
             {/* <p className='p-3 mb-5'>{parse(myData.description)}</p> */}
         </div>
     </>

@@ -47,9 +47,9 @@ function AboutMe() {
                 </div>
             </div>
         </div>
-        <div className="mb-5">
+        {/* <div className="mb-5 d-sm-none d-lg-block">
             <CardGroup/>
-        </div>
+        </div> */}
     </>
     )
 }

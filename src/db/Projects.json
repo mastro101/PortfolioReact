@@ -9,9 +9,7 @@
             "heightPositionMobile": 0,
             "name": "Sketchbook About Her Sun",
             "promoImg": "SAHSPromoArt.jpg",
-            "url_itch": "https://team-soletude.itch.io/a-sketchbook-about",
-            "url_ggj": "",
-            "url_steam": "https://store.steampowered.com/app/1611760/A_Sketchbook_About_Her_Sun/"
+            "url": "https://store.steampowered.com/app/1611760/A_Sketchbook_About_Her_Sun/"
         },
         {
             "active": false,
@@ -22,9 +20,7 @@
             "heightPositionMobile": 75,
             "name": "Switching Mask",
             "promoImg": "SwitchingMaskPromoArt.png",
-            "url_itch": "",
-            "url_ggj": "",
-            "url_steam": ""
+            "url": ""
         },
         {
             "active": true,
@@ -35,9 +31,7 @@
             "heightPositionMobile": 0,
             "name": "Star Warmer",
             "promoImg": "StarWarmerPromoArt.jpg",
-            "url_itch": "https://eventhorizonschool.itch.io/star-warmer",
-            "url_ggj": "",
-            "url_steam": ""
+            "url": "https://eventhorizonschool.itch.io/star-warmer"
         },
         {
             "active": true,
@@ -48,9 +42,7 @@
             "heightPosition": 25,
             "heightPositionMobile": 25,
             "promoImg": "ImmortalPartyPromoArt.jpg",
-            "url_itch": "https://eventhorizonschool.itch.io/immortal-party",
-            "url_ggj": "",
-            "url_steam": ""
+            "url": "https://eventhorizonschool.itch.io/immortal-party"
         },
         {
             "active": true,
@@ -61,9 +53,7 @@
             "heightPositionMobile": 75,
             "name": "Snoks",
             "promoImg": "SnoksPromoArt.png",
-            "url_itch": "",
-            "url_ggj": "https://v3.globalgamejam.org/2021/games/snoks-9",
-            "url_steam": ""
+            "url": "https://v3.globalgamejam.org/2021/games/snoks-9"
         },
         {
             "active": true,
@@ -74,9 +64,7 @@
             "heightPositionMobile": 25,
             "name": "Fabbrizia",
             "promoImg": "FabbriziaPromoArt.jpg",
-            "url_itch": "",
-            "url_ggj": "https://v3.globalgamejam.org/2020/games/fabbrizia-9",
-            "url_steam": ""
+            "url": "https://v3.globalgamejam.org/2020/games/fabbrizia-9"
         },
         {
             "active": true,
@@ -87,9 +75,7 @@
             "heightPositionMobile": 75,
             "name": "Sleepee",
             "promoImg": "SleepeePromoArt.jpg",
-            "url_itch": "",
-            "url_ggj": "https://v3.globalgamejam.org/2019/games/sleepee",
-            "url_steam": ""
+            "url": "https://v3.globalgamejam.org/2019/games/sleepee"
         }
     ]
 }

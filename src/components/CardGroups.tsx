@@ -14,7 +14,6 @@ const CardGroup = () => {
             <Card myData={data.projects[3]}/>
             <Card myData={data.projects[4]}/>
             <Card myData={data.projects[5]}/>
-            <Card myData={data.projects[6]}/>
         </div>
     </>
     )
