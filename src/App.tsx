@@ -36,17 +36,6 @@ function App() {
 
     return (
     <>
-      <img src={"/img/anatra.png"} />
-      <img src={("/img/anatra.png")} />
-      <img src={window.location.origin + "mastrofolio/img/anatra.png"} />
-      <img src={(window.location.origin + "/img/anatra.png")} />
-
-      <img src={"/img/cute.jpeg"} />
-      <img src={("/img/cute.jpeg")} />
-      <img src={window.location.origin + "/img/cute.jpeg"} />
-      <img src={(window.location.origin + "/img/cute.jpeg")} />
-
-
       <Routes>
         <Route index element={<CardGroup/>}/>
         <Route path='Projects'>
