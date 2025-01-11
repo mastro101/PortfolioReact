@@ -19,7 +19,7 @@ a {
   height: 15rem;
   color: var(--main-orange);
   background-color: #464646;
-  background-image: url("./img/anatra.png");
+  background-image: url("/img/anatra.png");
   background-size: 75%;
   background-repeat: no-repeat;
   background-position: 100% 10%;
