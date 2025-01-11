@@ -20,7 +20,7 @@ export const Project = ({myData} : Props) => {
         <div className='p-2'>
             <h1>{myData.name}</h1>
             <p>{parse(myData.description)}</p>
-            <a href={myData.url_itch} target='_blank'>link</a>
+            <a href={myData.url} target='_blank'>link</a>
         </div>
     </>
     )
