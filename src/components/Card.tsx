@@ -15,7 +15,7 @@ const Card = ({myData} : Props) => {
     return (
     <>
         <a href={myData.url} target="_blank" className="card border-light">
-            <img src={"/assets/img/" + myData.promoImg} className="crop-h" alt="..." style={style}/>
+            <img src={window.location.origin + "/assets/img/" + myData.promoImg} className="crop-h" alt="..." style={style}/>
             <div className="card-body">
                 <div className="row">
                     <div className="col">

@@ -24,7 +24,7 @@ export const ProjectMobile = ({myData} : Props) => {
         <div className='w-100 mb-4'>
             <a href={myData.url} target='_blank'>
                 <h1 className='px-2 text-secondary'>{myData.name}</h1>
-                <img src={"/assets/img/" + myData.promoImg} className="crop-h w-100" alt="..." height="150px" style={style} />
+                <img src={window.location.origin + "/assets/img/" + myData.promoImg} className="crop-h w-100" alt="..." height="150px" style={style} />
                 <div className='text-secondary w-100 p-2 fs-5'>
                     <div className='d-flex justify-content-between'>
                         <div className='align-bottom col'>by {myData.author}</div>
