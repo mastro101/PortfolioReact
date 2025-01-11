@@ -38,7 +38,7 @@ function App() {
     <>
       <img src={"/img/anatra.png"} />
       <img src={("/img/anatra.png")} />
-      <img src={window.location.origin + "/img/anatra.png"} />
+      <img src={window.location.origin + "mastrofolio/img/anatra.png"} />
       <img src={(window.location.origin + "/img/anatra.png")} />
 
       <img src={"/img/cute.jpeg"} />
