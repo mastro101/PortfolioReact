@@ -36,23 +36,34 @@ function App() {
 
     return (
     <>
-        <Routes>
-          <Route index element={<CardGroup/>}/>
-          <Route path='Projects'>
-            <Route index element={<Projects/>}/>
-            {projectRoutes}
-          </Route>
-          <Route path="AboutMe" element={<AboutMe/>}/>
-          <Route path="Contacts" element={<Contacts />}/>
-        </Routes>
+      <img src={"/img/anatra.png"} />
+      <img src={("/img/anatra.png")} />
+      <img src={window.location.origin + "/img/anatra.png"} />
+      <img src={(window.location.origin + "/img/anatra.png")} />
 
-        {/* <ListGroup items={['1', '2', '<urla di disperazione perchè non esiste un livello definibile essendo troppo potente>', '4']} heading="Seleziona un livello di Cuteness"
-        onSelectItem={handleSelectItem}
-        /> */}
+      <img src={"/img/cute.jpeg"} />
+      <img src={("/img/cute.jpeg")} />
+      <img src={window.location.origin + "/img/cute.jpeg"} />
+      <img src={(window.location.origin + "/img/cute.jpeg")} />
 
-        {/* { alertVisible && <Alert onClose={() => setAlertVisibility(false)}>Oh shit</Alert>} */}
-        {/* <Button bootstrapColor="success" onClick={() => setAlertVisibility(!alertVisible)}>WAAA</Button> */}
-        {/* <div>{ alertVisible && <img src={('src/cute.jpeg')} className="img-thumbnail" alt="..."/> }</div> */}
+
+      <Routes>
+        <Route index element={<CardGroup/>}/>
+        <Route path='Projects'>
+          <Route index element={<Projects/>}/>
+          {projectRoutes}
+        </Route>
+        <Route path="AboutMe" element={<AboutMe/>}/>
+        <Route path="Contacts" element={<Contacts />}/>
+      </Routes>
+
+      {/* <ListGroup items={['1', '2', '<urla di disperazione perchè non esiste un livello definibile essendo troppo potente>', '4']} heading="Seleziona un livello di Cuteness"
+      onSelectItem={handleSelectItem}
+      /> */}
+
+      {/* { alertVisible && <Alert onClose={() => setAlertVisibility(false)}>Oh shit</Alert>} */}
+      {/* <Button bootstrapColor="success" onClick={() => setAlertVisibility(!alertVisible)}>WAAA</Button> */}
+      {/* <div>{ alertVisible && <img src={('src/cute.jpeg')} className="img-thumbnail" alt="..."/> }</div> */}
 
     </>
     )
