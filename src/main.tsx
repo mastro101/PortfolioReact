@@ -11,7 +11,7 @@ import 'bootstrap/dist/js/bootstrap.js'
 import './components/Mastro.css'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <BrowserRouter>
+  <BrowserRouter basename='/mastrofolio'>
     <Header>Matteo Mastropasqua</Header>
     <NavBar></NavBar>
     <div className='d-flex justify-content-center'>
