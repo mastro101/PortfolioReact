@@ -5,7 +5,7 @@ import { BootstrapColors } from "./helper/Enumerators";
 import ListGroup from "./components/ListGroup";
 import ButtonUnderline from "./components/ButtonUnderline";
 import ImagePopUp from "./components/ImagePopUp";
-import { BrowserRouter, Route, Router, Routes } from "react-router";
+import { BrowserRouter, Navigate, Route, Router, Routes, useNavigate } from "react-router";
 import NavBar from "./components/NavBar";
 import CardGroup from "./components/CardGroups";
 import Projects from "./components/Projects";
@@ -38,12 +38,10 @@ function App() {
     <>
       <Routes>
         <Route index element={<CardGroup/>}/>
-        <Route path='Projects'>
-          <Route index element={<Projects/>}/>
-          {projectRoutes}
-        </Route>
+        <Route path='Projects' element={<Projects/>}/>
         <Route path="AboutMe" element={<AboutMe/>}/>
         <Route path="Contacts" element={<Contacts />}/>
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
 
       {/* <ListGroup items={['1', '2', '<urla di disperazione perchè non esiste un livello definibile essendo troppo potente>', '4']} heading="Seleziona un livello di Cuteness"
