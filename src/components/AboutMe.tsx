@@ -17,8 +17,9 @@ function AboutMe() {
                 </div>
             </div>
             <div className="mb-5">
-                <h2>Web Development <i className="bi bi-globe2"></i></h2>
-                <p>As a Full Stack Developer I worked in team developing front page, private and public API, database, debug and client support</p>
+                <h2><i className="bi bi-globe2"></i> Web Developer </h2>
+                <p>As a Full Stack Developer I worked in team developing front pages, private and public APIs, databases, debug and client support</p>
+                <p>For this website I used React so that I could learn a new framework</p>
                 <div className="d-flex flex-wrap mb-3 w-50">
                     <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original-wordmark.svg" />
                     <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
@@ -30,14 +31,13 @@ function AboutMe() {
                     <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
                     <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" />
                 </div>
-                <p>For this website I used React so that I can learn a new framework</p>
                 <div className="d-flex flex-wrap">
                     <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
                     <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
                 </div>
             </div>
             <div className="mb-5">
-                <h2>Game Programmer <i className="bi bi-controller align-bottom"></i></h2>
+                <h2><i className="bi bi-controller align-bottom"></i> Game Programmer</h2>
                 <p>I worked with various teams in the creation of videogames and partecipate in Game Jams</p>
                 <div className="d-flex flex-wrap mb-3">
                     <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg" />

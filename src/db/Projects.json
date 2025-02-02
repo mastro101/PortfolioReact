@@ -2,6 +2,17 @@
     "projects": [
         {
             "active": true,
+            "author": "Dedabe",
+            "date": "2025-01",
+            "description": "Interactive Fiction created in collaboration with <a href=\"https://dangercollective.com/artists/red-ribbon\" target=\"_blank\">Red Ribbon</a> with the release of their last album <a href=\"https://dangercollectiverecords.limitedrun.com/products/694619\" target=\"_blank\">PlanetX</a>",
+            "heightPosition": 0,
+            "heightPositionMobile": 50,
+            "name": "Fruit Revenge",
+            "promoImg": "FruitRevengePromoArt.png",
+            "url": "https://avigar.itch.io/fruit-revenge"
+        },
+        {
+            "active": true,
             "author": "Team SolEtude",
             "date": "2021-02",
             "description": "Interactive Fiction created in collaboration with <a href=\"https://dangercollective.com/artists/red-ribbon\" target=\"_blank\">Red Ribbon</a> with the release of their last album <a href=\"https://dangercollectiverecords.limitedrun.com/products/694619\" target=\"_blank\">PlanetX</a>",

@@ -37,11 +37,11 @@ function App() {
     return (
     <>
       <Routes>
-        <Route index element={<CardGroup/>}/>
-        <Route path='Projects' element={<Projects/>}/>
-        <Route path="AboutMe" element={<AboutMe/>}/>
-        <Route path="Contacts" element={<Contacts />}/>
-        <Route path="*" element={<Navigate to="/" />} />
+        <Route index           element={<CardGroup      />}/>
+        <Route path='Projects' element={<Projects       />}/>
+        <Route path='AboutMe'  element={<AboutMe        />}/>
+        <Route path='Contacts' element={<Contacts       />}/>
+        <Route path='*'        element={<Navigate to="/"/>}/>
       </Routes>
 
       {/* <ListGroup items={['1', '2', '<urla di disperazione perchè non esiste un livello definibile essendo troppo potente>', '4']} heading="Seleziona un livello di Cuteness"

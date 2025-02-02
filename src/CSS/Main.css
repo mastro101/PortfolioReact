@@ -1,3 +1,10 @@
 p {
     font-size: 1.25rem;
 }
+
+.nav-link span:nth-child(1)
+{
+    top: 0;
+    left: 0;
+    transform-origin: left;
+}
