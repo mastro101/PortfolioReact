@@ -9,7 +9,10 @@
             "heightPositionMobile": 50,
             "name": "Fruit Revenge",
             "promoImg": "FruitRevengePromoArt.png",
-            "url": "https://avigar.itch.io/fruit-revenge"
+            "url": "https://avigar.itch.io/fruit-revenge",
+            "steam": false,
+            "itch": true,
+            "ggj": false
         },
         {
             "active": true,
@@ -20,7 +23,10 @@
             "heightPositionMobile": 0,
             "name": "Sketchbook About Her Sun",
             "promoImg": "SAHSPromoArt.jpg",
-            "url": "https://store.steampowered.com/app/1611760/A_Sketchbook_About_Her_Sun/"
+            "url": "https://store.steampowered.com/app/1611760/A_Sketchbook_About_Her_Sun/",
+            "steam": true,
+            "itch": true,
+            "ggj": false
         },
         {
             "active": false,
@@ -31,7 +37,10 @@
             "heightPositionMobile": 75,
             "name": "Switching Mask",
             "promoImg": "SwitchingMaskPromoArt.png",
-            "url": ""
+            "url": "",
+            "steam": false,
+            "itch": false,
+            "ggj": false
         },
         {
             "active": true,
@@ -42,7 +51,10 @@
             "heightPositionMobile": 0,
             "name": "Star Warmer",
             "promoImg": "StarWarmerPromoArt.jpg",
-            "url": "https://eventhorizonschool.itch.io/star-warmer"
+            "url": "https://eventhorizonschool.itch.io/star-warmer",
+            "steam": false,
+            "itch": true,
+            "ggj": false
         },
         {
             "active": true,
@@ -53,7 +65,10 @@
             "heightPosition": 25,
             "heightPositionMobile": 25,
             "promoImg": "ImmortalPartyPromoArt.jpg",
-            "url": "https://eventhorizonschool.itch.io/immortal-party"
+            "url": "https://eventhorizonschool.itch.io/immortal-party",
+            "steam": false,
+            "itch": true,
+            "ggj": false
         },
         {
             "active": true,
@@ -64,7 +79,10 @@
             "heightPositionMobile": 75,
             "name": "Snoks",
             "promoImg": "SnoksPromoArt.png",
-            "url": "https://v3.globalgamejam.org/2021/games/snoks-9"
+            "url": "https://v3.globalgamejam.org/2021/games/snoks-9",
+            "steam": false,
+            "itch": false,
+            "ggj": true
         },
         {
             "active": true,
@@ -75,7 +93,10 @@
             "heightPositionMobile": 25,
             "name": "Fabbrizia",
             "promoImg": "FabbriziaPromoArt.jpg",
-            "url": "https://v3.globalgamejam.org/2020/games/fabbrizia-9"
+            "url": "https://v3.globalgamejam.org/2020/games/fabbrizia-9",
+            "steam": false,
+            "itch": false,
+            "ggj": true
         },
         {
             "active": true,
@@ -86,7 +107,10 @@
             "heightPositionMobile": 75,
             "name": "Sleepee",
             "promoImg": "SleepeePromoArt.jpg",
-            "url": "https://v3.globalgamejam.org/2019/games/sleepee"
+            "url": "https://v3.globalgamejam.org/2019/games/sleepee",
+            "steam": false,
+            "itch": false,
+            "ggj": true
         }
     ]
 }

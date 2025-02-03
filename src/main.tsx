@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <HashRouter>
     <Header>Matteo Mastropasqua</Header>
     <NavBar></NavBar>
-    <div className='d-flex justify-content-center'>
+    <div className='pt-lg-5 pt-4 d-flex justify-content-center'>
       <div className='w-lg-75 w-sm-100'>
           <Routes>
             <Route index element={<CardGroup/>}/>

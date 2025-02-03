@@ -25,6 +25,10 @@ a {
   background-position: 100% 10%;
 }
 
+.background-gray {
+  background-color: #464646;
+}
+
 .mastro-orange {
   color: var(--main-orange);
 }

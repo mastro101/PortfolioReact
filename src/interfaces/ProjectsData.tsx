@@ -12,4 +12,7 @@ export interface ProjectData {
     name: string
     promoImg : string
     url: string
+    steam: boolean
+    itch: boolean
+    ggj: boolean
 }

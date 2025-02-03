@@ -4,8 +4,6 @@ import data from "../db/Projects.json"
 
 const CardGroup = () => {
 
-    const text1 = "i'm a duck"
-
     const progects = [];
     for(let i = 0; i < data.projects.length; i++)
     {
