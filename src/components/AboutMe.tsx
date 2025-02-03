@@ -11,7 +11,7 @@ function AboutMe() {
     return (
     <>
         <div className="container">
-            <div className="mb-5">
+            <div className="mb-4">
                 <p>Salve</p>
                 <p>I'm Matteo, and I'm an Italian developer specialized in C#</p>
                 <div className="d-flex flex-wrap">
@@ -21,7 +21,17 @@ function AboutMe() {
                     <img className="icon" style={iconStyle} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
                 </div>
             </div>
-            <div className="mb-5">
+            <div className="mb-4">
+                <h2><i className="bi bi-controller align-bottom"></i> Game Programmer</h2>
+                <p>I worked with various teams in the creation of videogames and partecipate in Game Jams</p>
+                <div className="d-flex flex-wrap mb-3">
+                    <img className="icon" style={iconStyle} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg" />
+                    <img className="icon" style={iconStyle} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original.svg" />
+                    <img className="icon" style={iconStyle} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/godot/godot-original.svg" />
+                    <img className="icon" style={iconStyle} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
+                </div>
+            </div>
+            <div className="mb-4">
                 <h2><i className="bi bi-globe2"></i> Web Developer </h2>
                 <p>As a Full Stack Developer I worked in team developing front pages, private and public APIs, databases, debug and client support</p>
                 <p>For this website I used React so that I could learn a new framework</p>
@@ -37,16 +47,6 @@ function AboutMe() {
                     <img className="icon" style={iconStyle} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" />
                     <img className="icon" style={iconStyle} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
                     <img className="icon" style={iconStyle} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
-                </div>
-            </div>
-            <div className="mb-5">
-                <h2><i className="bi bi-controller align-bottom"></i> Game Programmer</h2>
-                <p>I worked with various teams in the creation of videogames and partecipate in Game Jams</p>
-                <div className="d-flex flex-wrap mb-3">
-                    <img className="icon" style={iconStyle} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg" />
-                    <img className="icon" style={iconStyle} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original.svg" />
-                    <img className="icon" style={iconStyle} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/godot/godot-original.svg" />
-                    <img className="icon" style={iconStyle} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
                 </div>
             </div>
         </div>

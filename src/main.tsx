@@ -19,7 +19,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <div className='pt-lg-5 pt-4 d-flex justify-content-center'>
       <div className='w-lg-75 w-sm-100'>
           <Routes>
-            <Route index element={<CardGroup/>}/>
+            <Route index element={<Projects/>}/>
             <Route path='Projects' element={<Projects/>}/>
             <Route path="AboutMe" element={<AboutMe/>}/>
             <Route path="Contacts" element={<Contacts />}/>
